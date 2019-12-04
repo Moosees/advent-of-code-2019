@@ -41,4 +41,4 @@ const hackTheIntercodeProgram = input => {
   return hackedInput[0];
 };
 
-console.log(hackTheIntercodeProgram(input));
+console.log('Answer: ', hackTheIntercodeProgram(input));

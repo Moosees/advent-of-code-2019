@@ -66,4 +66,8 @@ const findTheOutput = (input, answer) => {
   return 100 * noun + verb;
 };
 
-console.log(findTheOutput(input, 19690720));
+// A bit of nesting and some repetition that needs cleaning up.
+// The part two function could be made more flexible to allow
+// for more efficient solutions to varying inputs.
+// Not too bad for a bruteish approach.
+console.log('Answer: ', findTheOutput(input, 19690720));

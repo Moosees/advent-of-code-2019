@@ -26,6 +26,7 @@ const countFuelForTheCounterUpper = async (input, calculator) => {
   }
 };
 
+// Easy start but I got to practice node filesystem :D
 countFuelForTheCounterUpper('./input.txt', fuelCalculator).then(answer =>
   console.log('Fuel Required: ', answer)
 );

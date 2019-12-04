@@ -34,6 +34,7 @@ const traverseWire = (wire, map, findIntersections = false) => {
   return intersections;
 };
 
+// Lots of nesting and code needs some cleaning, not too happy with this day :(
 const findClosestIntersection = (wire1, wire2) => {
   let wireMap = {};
   let intersections = [];
